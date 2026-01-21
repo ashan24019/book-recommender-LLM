@@ -1,0 +1,13 @@
+# 1) Create/overwrite `.gitignore` with image and kaggle entries
+cat > .gitignore <<'EOF'
+data/
+**/images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+.kaggle/
+kaggle.json
+EOF
